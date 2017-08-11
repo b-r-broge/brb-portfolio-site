@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import './styles/normalize.css';
+import './styles/index.css';
+
+import App from './components/App';
+import Project from './components/Project'
+
+ReactDOM.render(
+  <BrowserRouter>
+    <Switch>
+      <Route path="/:project" component={Project} />
+      <Route path="/" component={App} />
+    </Switch>
+  </BrowserRouter>,
+  document.getElementById('root')
+  );
