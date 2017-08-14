@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import Baselayout from './baselayout'
-
 import '../styles/footer.css';
 
 class Footer extends Component {
