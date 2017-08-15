@@ -1,0 +1,32 @@
+import React, { Component } from 'react';
+
+import '../styles/navbar.css';
+
+class NavBar extends Component {
+  render() {
+    return (
+      <div className="nav-bar">
+        <div className="name-links">
+          <h1>Brad Broge</h1>
+          <div className="links">
+            <div className="links-one">
+              <i className="fa fa-linkedin-square" />
+              <i className="fa fa-github-square" />
+            </div>
+            <div className="links-two">
+              <i className="fa fa-envelope" />
+              <i className="fa fa-phone-square" />
+            </div>
+          </div>
+        </div>
+        <div className="page-sections">
+          <button> <span className="section">mission</span> </button>
+          <button> <span className="section">résumé</span> </button>
+          <button> <span className="section">examples</span> </button>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default NavBar;

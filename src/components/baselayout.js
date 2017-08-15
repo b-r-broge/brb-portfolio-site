@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import Header from './header';
-import Footer from './footer';
+import NavBar from './navbar';
 
 import '../styles/baselayout.css';
 
@@ -9,9 +8,9 @@ class Baselayout extends Component {
   render() {
     return (
       <div className="page">
-        <Header />
+        <NavBar />
         {this.props.children}
-        <Footer />
+        <NavBar />
       </div>
     );
   }

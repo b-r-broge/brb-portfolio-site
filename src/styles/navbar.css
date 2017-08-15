@@ -1,0 +1,87 @@
+/* Style for up to 480px, between 480 and 1024, and 1024+*/
+
+.nav-bar {
+  background: #2E3436;
+  color: #3F8AA5;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1vw;
+  margin: 0;
+  max-width: 100vw;
+}
+
+h1 {
+  font-size: 8vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links i {
+  margin: 2vmin;
+  font-size: 6vmin;
+}
+
+.name-links {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  background: #2E3436;
+  border: 1px solid #3F8AA5;
+  border-radius: 5px;
+  margin: 0 2.5vw;
+  padding: 10px 15px;
+}
+
+a:hover {
+  border: 1px solid #04B79A;
+  box-shadow: 0 0 1px 3px #04B79A;
+  text-shadow: 0 0 2px #04B79A;
+  color: #04B79A;
+}
+
+.page-sections {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 40%;
+}
+
+.section {
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-variant: small-caps;
+}
+
+button {
+  background: #2E3436;
+  border: 1px solid #3F8AA5;
+  border-radius: 5px;
+  height: 80%;
+  width: 30%;
+}
+
+button:hover {
+  border: 1px solid #04B79A;
+  color: #04B79A;
+  box-shadow: 0 0 1px 3px #04B79A;
+  text-shadow: 0 0 2px #04B79A;
+}
