@@ -85,3 +85,31 @@ button:hover {
   box-shadow: 0 0 1px 3px #04B79A;
   text-shadow: 0 0 2px #04B79A;
 }
+
+/*Tablet and Desktop Styling for Navbar*/
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 3.8vw;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    height: 12vh;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .page-sections {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+
+@media screen and (min-width: 1024) {
+
+}
