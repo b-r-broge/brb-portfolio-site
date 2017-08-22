@@ -10,12 +10,11 @@ class NavBar extends Component {
           <h1>Brad Broge</h1>
           <div className="links">
             <div className="links-one">
-              <i className="fa fa-linkedin-square" />
-              <i className="fa fa-github-square" />
+              <a href="https://www.linkedin.com/in/brbroge/"><i className="fa fa-linkedin-square" /></a>
+              <a href="https://github.com/b-r-broge"><i className="fa fa-github-square" /></a>
             </div>
             <div className="links-two">
               <i className="fa fa-envelope" />
-              <i className="fa fa-phone-square" />
             </div>
           </div>
         </div>
