@@ -1,0 +1,27 @@
+.glowbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image-box {
+  height: 30vw;
+  width: 30vw;
+  margin: 2vh;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.language {
+  width: 70vw;
+  height: 30vw;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

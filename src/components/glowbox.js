@@ -17,12 +17,14 @@ class Glowbox extends Component {
           <div className="content">
             <p> {this.props.content} </p>
           </div>
+          <div className="technology">
+            {this.props.tech}
+          </div>
           <div className="links">
             <a href={this.props.live}>Live Site</a>
             <a href={this.props.gh}>Code on Github</a>
           </div>
         </div>
-        <hr />
       </div>
     );
   }
