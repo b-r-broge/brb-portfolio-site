@@ -11,10 +11,14 @@ class App extends Component {
     return (
       <Baselayout>
         <div className="body">
-          <Glowbox content="This is the first glowbox" live="" gh="" />
-          <Glowbox content="This is the second glowbox" live="" gh="" />
-          <Glowbox content="This is the third glowbox" live="" gh="" />
-          <Glowbox content="This is the fourth glowbox" live="" gh="" />
+          <div className="bio">
+
+          </div>
+          <div className="projects">
+            <Glowbox title="BLAMM! Store" content="This box is for the BLAMM! Store project description" img="" live="" gh="" />
+            <Glowbox title="Gobble Social Media" content="This is the second glowbox" img="" live="" gh="" />
+            <Glowbox title="Mystery Word" content="This is the third glowbox" img="" live="" gh="" />
+          </div>
         </div>
       </Baselayout>
     );

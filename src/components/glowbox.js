@@ -7,9 +7,13 @@ class Glowbox extends Component {
     return (
       <div className="glowbox">
         <hr />
-        <div className="image">
+        <div className="image-box">
+          <img className="img" src={this.props.img} alt="Screenshot of the deployed product" />
         </div>
         <div className="language">
+          <div className="title">
+            <h4> {this.props.title} </h4>
+          </div>
           <div className="content">
             <p> {this.props.content} </p>
           </div>
