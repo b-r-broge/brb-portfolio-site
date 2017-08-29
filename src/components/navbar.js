@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import '../styles/navbar.css';
 
-const resume = require('../assets/Broge\ Brad\ Resume_28_08_2017.pdf');
+const resume = require('../assets/Broge Brad Resume_28_08_2017.pdf');
 
 class NavBar extends Component {
 
