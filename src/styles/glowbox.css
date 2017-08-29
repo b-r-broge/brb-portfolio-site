@@ -1,0 +1,54 @@
+.glowbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #2E3436;
+  margin: 5vh;
+}
+
+.image-box {
+  height: 30vw;
+  width: 30vw;
+  margin: 2vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  height: 100%;
+}
+
+.language {
+  width: 70vw;
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title h4{
+  color: #3F8AA5;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 1vh 1vw;
+}
+
+.content {
+  color: #FFF;
+  padding: 0 2vw;
+}
+
+.technology {
+  text-align: center;
+  color: #FFF;
+}
+
+.links {
+  color: #3F8AA5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2vmin;
+}
