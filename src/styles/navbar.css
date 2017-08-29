@@ -90,6 +90,7 @@ a:hover {
   color: #04B79A;
   box-shadow: 0 0 1px 3px #04B79A;
   text-shadow: 0 0 2px #04B79A;
+  border-radius: 5px;
 }
 
 
