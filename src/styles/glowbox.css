@@ -8,11 +8,13 @@
   height: 30vw;
   width: 30vw;
   margin: 2vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .img {
   height: 100%;
-  width: 100%;
 }
 
 .language {
