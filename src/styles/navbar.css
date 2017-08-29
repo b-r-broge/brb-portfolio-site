@@ -72,20 +72,26 @@ a:hover {
   font-variant: small-caps;
 }
 
-button {
+.page-sections a {
+  height: 30%;
+  width: 25%;
+}
+
+.button {
+  height: 100%;
+  width: 100%;
   background: #2E3436;
   border: 1px solid #3F8AA5;
   border-radius: 5px;
-  height: 80%;
-  width: 30%;
 }
 
-button:hover {
+.page-sections a:hover {
   border: 1px solid #04B79A;
   color: #04B79A;
   box-shadow: 0 0 1px 3px #04B79A;
   text-shadow: 0 0 2px #04B79A;
 }
+
 
 /*Tablet and Desktop Styling for Navbar*/
 
