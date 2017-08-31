@@ -27,8 +27,8 @@ class NavBar extends Component {
           </div>
         </div>
         <div className="page-sections">
-          <a href="#mission"><button className="button"> <span className="section">mission</span> </button></a>
           <a href={resume}><button className="button"> <span className="section">résumé</span> </button></a>
+          <a href="#mission"><button className="button"> <span className="section">mission</span> </button></a>
           <a href="#examples"><button className="button"> <span className="section">examples</span> </button></a>
         </div>
       </div>
