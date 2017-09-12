@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Baselayout from './baselayout';
 import Glowbox from './glowbox';
+import Technologies from './technologies';
 
 import '../styles/App.css';
 import '../styles/font-awesome-4.7.0/css/font-awesome.css'
@@ -18,10 +19,17 @@ class App extends Component {
       <Baselayout>
         <div className="body">
           <div id="mission" className="bio">
+            {/*<img className="slideImg" /> */}
             <h1> {"< Software Engineer />"} </h1>
-            <h2> Full Stack Web Development Solutions</h2>
-            <p>Motivated professional with experience in complete software life-cycle; requirements analysis, design, object-oriented development, and client support. Capable of troubleshooting complex JavaScript, Python, hardware, or operating system problems. Approachable, hardworking and capable of synthesizing complex ideas into consumable information for technical and non-technical personnel. Comfortable in a fast paced, Agile environment, and excels where deep team work and dedication to finding a solution is key.</p>
+            <h1> {"< Maker />"} </h1>
+            <h2> Full Stack Web Development </h2>
+            {/*<p>Motivated professional with experience in complete software life-cycle; requirements analysis, design, object-oriented development, and client support. Capable of troubleshooting complex JavaScript, Python, hardware, or operating system problems. Approachable, hardworking and capable of synthesizing complex ideas into consumable information for technical and non-technical personnel. Comfortable in a fast paced, Agile environment, and excels where deep team work and dedication to finding a solution is key.</p> */}
+            <p>To me, the act of creation is the ultimate expression of problem solving.  From fully functional websites to throwing ceramic mugs or brewing beer, I'm never happier then when I'm making.  I am driven to solve problems, and to explore how to improve the processes; either by integrating new technologies, implementing new methodologies on my existing techniques to eliminate waste, or simply ensuring that I take the time to practice what I already know.  I am comfortable behind a laptop, a table saw, a potters wheel, and more.  When I'm not making anything, I'm frequently doing something.  Ranging from running, spending time with my girlfriend or dogs, biking, climbing, hiking, playing games (board or computer) or riding my motorcycle.  My hobbies are many and varied.</p>
+            <p>I like to create things.  My pragmatism helps me find and define the end goal, and my creativity is my means to the end of accomplishing that goal.</p>
 
+          </div>
+          <div id="techno">
+            <Technologies />
           </div>
           <div id="examples" className="projects">
             <Glowbox title="BLAMM - Online store" content="BLAMM was a team project (Brad, Lorien, Amelia, Matt and Matt) building a online store for purchasing super hero (or villian) services.  I developed the API backend using NodeJS and Sequelize to setup and interact with a Postgres database.  Once the backend was established and hosted on Heroku, I then helped the rest of the team develop the frontend React/Redux application, eventually hosting the front end on Surge.sh" tech="ReactJS | Redux | NodeJS | Express | Postgres | Sequelize | Fetch | CSS | Surge.sh | Heroku" img={blammImg} live="http://blammstore.surge.sh" gh="https://github.com/Team-Blamm" />
