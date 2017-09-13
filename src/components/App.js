@@ -23,9 +23,9 @@ class App extends Component {
             <h1> {"< Software Engineer />"} </h1>
             <h1> {"< Maker />"} </h1>
             <h2> Full Stack Web Development </h2>
-            {/*<p>Motivated professional with experience in complete software life-cycle; requirements analysis, design, object-oriented development, and client support. Capable of troubleshooting complex JavaScript, Python, hardware, or operating system problems. Approachable, hardworking and capable of synthesizing complex ideas into consumable information for technical and non-technical personnel. Comfortable in a fast paced, Agile environment, and excels where deep team work and dedication to finding a solution is key.</p> */}
-            <p>To me, the act of creation is the ultimate expression of problem solving.  From fully functional websites to throwing ceramic mugs or brewing beer, I'm never happier then when I'm making.  I am driven to solve problems, and to explore how to improve the processes; either by integrating new technologies, implementing new methodologies on my existing techniques to eliminate waste, or simply ensuring that I take the time to practice what I already know.  I am comfortable behind a laptop, a table saw, a potters wheel, and more.  When I'm not making anything, I'm frequently doing something.  Ranging from running, spending time with my girlfriend or dogs, biking, climbing, hiking, playing games (board or computer) or riding my motorcycle.  My hobbies are many and varied.</p>
-            <p>I like to create things.  My pragmatism helps me find and define the end goal, and my creativity is my means to the end of accomplishing that goal.</p>
+            <p>From fully functional websites to throwing ceramic mugs or brewing beer, I'm never happier then when I'm making something.  I'm driven to solve problems, and my pragmatism helps me find and define a goal, and my creativity, focus on details, and analytical mind becomes the means to accomplishing that end.  I am comfortable behind a laptop, explaining technical concepts to my friends or family, throwing on a potters wheel, or running.  I'm friendly and approachable, and always ready to go the extra mile to help out.</p>
+
+          <p></p>
 
           </div>
           <div id="techno">

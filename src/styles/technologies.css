@@ -1,0 +1,12 @@
+.technologies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2vh 4vw;
+}
+
+.badge {
+  padding: 1.5vw 1.5vw;
+  height: 12vw;
+  width: 12vw;
+}
