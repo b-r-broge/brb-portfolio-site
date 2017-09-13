@@ -16,17 +16,13 @@ class App extends Component {
   render() {
 
     return (
-      <Baselayout>
-        <div className="body">
+      <Baselayout >
+        <div className="body" > {/*style={{backgroundImage: `url=(${bgimg})`, backgroundPosition: `center`, backgroundRepeat: `repeat repeat`, backgroundSize: 'cover'}}*/}
           <div id="mission" className="bio">
-            {/*<img className="slideImg" /> */}
             <h1> {"< Software Engineer />"} </h1>
             <h1> {"< Maker />"} </h1>
             <h2> Full Stack Web Development </h2>
             <p>From fully functional websites to throwing ceramic mugs or brewing beer, I'm never happier then when I'm making something.  I'm driven to solve problems, and my pragmatism helps me find and define a goal, and my creativity, focus on details, and analytical mind becomes the means to accomplishing that end.  I am comfortable behind a laptop, explaining technical concepts to my friends or family, throwing on a potters wheel, or running.  I'm friendly and approachable, and always ready to go the extra mile to help out.</p>
-
-          <p></p>
-
           </div>
           <div id="techno">
             <Technologies />

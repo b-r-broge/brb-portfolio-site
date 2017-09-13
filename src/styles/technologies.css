@@ -10,3 +10,8 @@
   height: 12vw;
   width: 12vw;
 }
+
+.badge:hover {
+  color: #04B79A;
+  background: radial-gradient(circle closest-side, #3F8AA5, rgba(0,0,0,0));
+}
