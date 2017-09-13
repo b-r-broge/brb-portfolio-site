@@ -5,7 +5,7 @@ body {
 .body {
   max-width: 100vw;
   min-height: 100vh;
-  background: url('https://lh5.googleusercontent.com/WYjCDo94RKyKR3zEUrDjRpJgymjkQ56d16Kb1uDTxe8qEtzAZRyNfnrBcD2ZVUbj7fl0nnzd7JjfGXE=w1122-h668') top repeat repeat #666;
+  background: url('../assets/steelplate.jpg') top repeat repeat #666;
   margin: 0;
   padding: 0;
 }
